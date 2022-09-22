@@ -56,5 +56,3 @@ Users should be able to:
 - Frontend Mentor - [@krishna-cyber](https://www.frontendmentor.io/profile/krishna-cyber)
 - Twitter - [@krishna82827714](https://twitter.com/Krishna82827714)
 
-
-
