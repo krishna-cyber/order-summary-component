@@ -5,14 +5,13 @@
 }
 
 body{
-    background: url("../pattern-background-desktop.svg"),#dfe8ff;
+    background: url("../pattern-background-desktop.svg") no-repeat top center;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    color: #333;
-    height: 100vh;
+    min-height: 100vh;
     width:  100vw;
-    background-repeat: repeat-x;
-    background-size: stretch;
+    background-size: contain;
+    background-color: ;
 }
 .content{
     background-color: #fff;
@@ -29,7 +28,7 @@ body{
 }
 .btn{
     background: #382ae0;
-    /* shodow purple */
+    
     box-shadow: 0px 4px 4px rgba(56, 42, 224, 0.25);
     
 }
