@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="../images/favicon-32x32.png" type="image/x-icon">
+    <title>Order Summary Card Component</title>
+</head>
+<body class=" flex justify-center items-center">
+    <main>
+       <div class="card max-w-md flex flex-col shadow-2xl">
+        <div class="image">
+            <img class=" rounded-t-xl" src="../images/illustration-hero.svg" alt="image-header-desktop">
+        </div>
+        <div class="content flex flex-col gap-4 rounded-b-xl">
+            <div class="description px-3 py-5">
+                <h2 class=" text-center text-slate-900 text-2xl font-bold">Order Summary</h2>
+                <p class=" mt-3 text-center px-5 text-slate-400">
+                    You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!
+                </p>
+            </div>
+            <div class="pricing">
+                <div class="pricing-container items-center rounded-lg p-3 flex justify-between w-3/4 mx-auto">
+                    <div class="music-plan flex gap-2">
+                        <img src="../images/icon-music.svg" alt="">
+                        <div class="price flex flex-col">
+                            <h2 class=" font-bold text-lg">Annual Plan</h2>
+                            <p class=" text-slate-400 text-sm">$59.99/year</p>
+                        </div>
+                    </div>
+                    <div class="change-plan">
+                        <a href="#" class="button text-sm font-semibold">Change</a>
+                    </div>
+                </div>
+            </div>
+            <div class="checkout flex justify-center items-center flex-col gap-5">
+                <div class="btn cursor-pointer text-center text-white font-medium p-3 w-2/3 rounded-xl shadow-inner">
+                    Proceed to Payment
+                </div>
+                <div class="cancel cursor-pointer text-slate-600 font-semibold pb-8">
+                    Cancel Order
+                </div>
+            </div>
+        </div>
+       </div>
+    </main>
+</body>
+</html>
